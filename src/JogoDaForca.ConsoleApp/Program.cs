@@ -1,10 +1,16 @@
-﻿namespace JogoDaForca.ConsoleApp
+﻿using System;
+
+namespace JogoDaForca.ConsoleApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Instancia um novo jogo
+            JogoDaForca jogo = new JogoDaForca();
+
+            // Inicia o jogo
+            jogo.Iniciar();
         }
     }
 }
