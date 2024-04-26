@@ -7,7 +7,7 @@ namespace JogoDaForca.ConsoleApp
         static void Main(string[] args)
         {
             // Instancia um novo jogo
-            JogoDaForca jogo = new JogoDaForca();
+            pastaJogo.JogoDaForca jogo = new pastaJogo.JogoDaForca();
 
             // Inicia o jogo
             jogo.Iniciar();
